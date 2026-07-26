@@ -6,6 +6,11 @@ on:
     paths:
       - "studio/**"
       - ".github/workflows/android.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "studio/**"
+      - ".github/workflows/android.yml"
   workflow_dispatch:
 
 permissions:
