@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+studio/node_modules
+studio/dist
+studio/android
