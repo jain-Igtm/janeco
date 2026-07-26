@@ -1,6 +1,11 @@
 name: Build studio APK
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "studio/**"
+      - ".github/workflows/android.yml"
   workflow_dispatch:
 
 permissions:
