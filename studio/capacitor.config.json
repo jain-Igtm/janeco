@@ -1,0 +1,9 @@
+{
+  "appId": "com.janeco.studio",
+  "appName": "Jane Studio",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#f2efe7"
+  }
+}
